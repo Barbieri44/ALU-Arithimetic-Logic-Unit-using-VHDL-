@@ -7,7 +7,7 @@ entity fulladd is
 			
 end fulladd;
 
-architecture behavioral of fulladd is
+architecture codigo of fulladd is
   signal xor1, and1, and2, xor2 : std_logic;
 begin
 
@@ -23,5 +23,5 @@ begin
   
   Cout <= and1 or and2;
   
-end behavioral;
+end codigo;
 
